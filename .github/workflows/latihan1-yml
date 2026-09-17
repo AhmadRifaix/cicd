@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Install update
         run: apt update -y
-      - name: Install nginx
+      - name: Install nginx -y
         run: sudo apt install nginx -y
-      - name: Tes landing page nginx
+      - name: tes landing page nginx
         run: curl localhost

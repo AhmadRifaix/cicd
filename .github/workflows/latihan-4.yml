@@ -8,7 +8,7 @@ on:
       nama_siswa:
         description: 'rifai'
         required: true
-        default: 'Siswa TJKT'
+        default: 'Ahmad rifai'
 
 jobs:
   test:

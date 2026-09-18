@@ -8,6 +8,6 @@ jobs:
       - name: Install update
         run: sudo apt update -y
       - name: Install apache
-        run: sudo apt install apache -y
+        run: sudo apt install apache2 -y
       - name: tes landing page apache
         run: sudo systemctl start apache2 && curl localhost
